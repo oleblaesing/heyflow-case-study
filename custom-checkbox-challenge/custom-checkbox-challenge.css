@@ -1,0 +1,33 @@
+.custom-checkbox {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+}
+
+.custom-checkbox input[type="checkbox"]:focus-visible + [role="checkbox"] {
+  outline: 2px solid blue;
+}
+
+.custom-checkbox [role="checkbox"] {
+  border: 1px solid black;
+  border-radius: 3px;
+  color: white;
+  cursor: pointer;
+  display: inline-block;
+  height: 20px;
+  outline-offset: 2px;
+  width: 20px;
+}
+
+.custom-checkbox [role="checkbox"][aria-checked="true"] {
+  background-color: black;
+}
+
+.custom-checkbox [role="checkbox"] .check-icon {
+  display: "none";
+}
+
+.custom-checkbox [role="checkbox"][aria-checked="false"] .check-icon {
+  display: "block";
+}
