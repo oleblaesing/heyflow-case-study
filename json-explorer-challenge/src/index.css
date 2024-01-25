@@ -1,0 +1,32 @@
+a {
+  color: blue;
+  cursor: pointer;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.mt-1 {
+  margin-top: 10px;
+}
+
+.mt-2 {
+  margin-top: 20px;
+}
+
+.ml-1 {
+  margin-left: 10px;
+}
+
+.p-1 {
+  padding: 10px;
+}
+
+.border {
+  border: 2px solid gainsboro;
+}
+
+.border-radius {
+  border-radius: 4px;
+}
